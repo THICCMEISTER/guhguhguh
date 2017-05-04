@@ -6,7 +6,7 @@ import java.awt.image.*;
 import java.util.*;
 
 public class Mario extends MovingImage {
-
+	
 	public static final int MARIO_WIDTH = 40;
 	public static final int MARIO_HEIGHT = 60;
 	
@@ -34,6 +34,8 @@ public class Mario extends MovingImage {
 		vY+= 0.69;
 		super.y+=vY;
 		super.x+=vX;
+		
+		System.out.println("hehexd");
 	}
 
 
